@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME TABLE</title>
+    <style>
+        * {
+            text-align: center;
+        }
+        td:hover{
+            transition: ease-in-out 0.7s;
+            animation: rahul infinite 0.5s;
+            /* background-color: aqua; */
+        }
+        @keyframes rahul {
+            25%{
+                background-color: aqua;
+
+            }
+            50%{
+                background-color: rgb(134, 159, 159);
+            }
+            75%{
+                background-color: aliceblue;
+                color: black;
+            }
+            100%{
+                background-color: rgb(17, 19, 19);
+                color: white;
+            }
+        }
+        section {
+            display: flex;
+            justify-content: center;
+        }
+
+        #class {
+            display: flex;
+            justify-content: space-around;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://jssstuniv.in/assets/img/logo/jssstulogo.png" alt="">
+        <div>
+            <p>JSS MAHAVIDYAPEETA</p>
+            <p>JSS SCIENCE AND TECHNOLOGY UNIVERSITY</p>
+            <H3>SHRI JAYACHAMRAJENDRA COLLEGE OF ENGINEERING</H3>
+            <img src="" alt="">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h4>Dept of COMPUTER SCIENCE AND ENGINEERING</h4>
+                <p>Time Table for 2023-2024</p>
+            </div>
+        </section>
+        <div id="class">
+            <p>SEM : VI</p>
+            <p>SECTION : "C"</p>
+            <p>Room No: IS102</p>
+        </div>
+        <section>
+            <table border="2" class="flex" width="70%">
+                <tr bgcolor="yellow">
+                    <th>DAY</th>
+                    <th>7:30-8:30</th>
+                    <th>8:30-9:30</th>
+                    <th>9:30-10:30</th>
+                    <th>10:30-11:00</th>
+                    <th>11:00-11:50</th>
+                    <th>11:50-12:40</th>
+                    <th>12:40-1:30</th>
+                    <th>1:30-2:30</th>
+                    <th>2:30-3:30</th>
+                    <th>3:30-4:30</th>
+                    <th>4:30-5:30</th>
+                </tr>
+                <tr height="100">
+                    <td>MON</td>
+                    <td></td>
+                    <td></td>
+                    <td>OE-II</td>
+                    <td rowspan="6">BREAK</td>
+                    <td>
+                        <p>20CS641/</p>
+                        <p>20CS642/</p>
+                        <p>20CS643</p>
+                    </td>
+                    <td>20CS620</td>
+                    <td>20CS610</td>
+                    <td rowspan="6">BREAK</td>
+                    <td colspan="2">
+                        <p>20CS630P C2</p>
+                        <p>HW LAB</p>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr height="100">
+                    <td>TUE</td>
+                    <td></td>
+                    <td>20HU612</td>
+                    <td>OE-III</td>
+                    <td>20CS620</td>
+                    <td>20CS630</td>
+                    <td>20CS610</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr height="100">
+                    <td>WED</td>
+                    <td></td>
+                    <td>
+                        <p>20CS641/</p>
+                        <p>20CS642/</p>
+                        <p>20CS643</p>
+                    </td>
+                    <td>OE-II</td>
+                    <td>20CS620</td>
+                    <td>20CS630</td>
+                    <td>20CS610</td>
+                    <td colspan="3">
+                        20CS67L C1 <br> SW Lab1
+                        <hr>
+                        20CS68L C2 <br> SW Lab2
+                    </td>
+                </tr>
+                <tr height="100">
+                    <td>THR</td>
+                    <td></td>
+                    <td></td>
+                    <td>OE-III</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr height="100">
+                    <td>WED</td>
+                    <td></td>
+                    <td>
+                        <p>20CS641/</p>
+                        <p>20CS642/</p>
+                        <p>20CS643</p>
+                    </td>
+                    <td>OE-II</td>
+                    <td>20CS620</td>
+                    <td>20CS630</td>
+                    <td>20CS610</td>
+                    <td colspan="3">
+                        20CS67L C2 <br> SW Lab1
+                        <hr>
+                        20CS68L C1 <br> SW Lab2
+                    </td>
+                </tr>
+                <tr height="100">
+                    <td>THR</td>
+                    <td></td>
+                    <td></td>
+                    <td>OE-III</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <br />
+        <section>
+            <table border=1 align="center" width="50%">
+                <tr>
+                    <th><b>Sub Code</b></th>
+                    <th><b>Sub Title</b></th>
+                    <th><b>Credits</b></th>
+                    <th><b>Course Instructor</b></th>
+                </tr>
+                <tr>
+                    <td>20CS610</td>
+                    <td>Machine Learning</td>
+                    <td>4</td>
+                    <td>Prof.DHN</td>
+                </tr>
+                <tr>
+                    <td>20CS620</td>
+                    <td>Web Technology</td>
+                    <td>3</td>
+                    <td>Prof.NS</td>
+                </tr>
+                <tr>
+                    <td>20CS630</td>
+                    <td>Internet of Things</td>
+                    <td>3</td>
+                    <td>Prof.SM</td>
+                </tr>
+                <tr>
+                    <td>20CS64(1)/(2)/(3)</td>
+                    <td>CC/ACS/CS</td>
+                    <td>3</td>
+                    <td>Prof.MAA/HDN/SPM/RP/RK</td>
+                </tr>
+                <tr>
+                    <td>20CS65(2)/(3)</td>
+                    <td>PP/FoCN</td>
+                    <td>3</td>
+                    <td>Prof.SNM/NT</td>
+                </tr>
+                <tr>
+                    <td>20CS66(2)/(3)</td>
+                    <td>IoML/BoDIP</td>
+                    <td>3</td>
+                    <td>Prof.RR/SS</td>
+                </tr>
+                <tr>
+                    <td>20CS67L</td>
+                    <td>ML Lab</td>
+                    <td>1.5</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20CS68L</td>
+                    <td>WT Lab</td>
+                    <td>1.5</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20HU612</td>
+                    <td>CI & PE</td>
+                    <td>0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan=2><b>Total Credits</b></td>
+                    <td>23</td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <footer>
+            <p><b>Dr.Srinath<br />HoD, Dept of CSE</b><br /></p>
+            <p align="right"><b>Dr.C.Nataraju<br />Principal,SJCE,JSS STU</b></p>
+        </footer>
+    </main>
+</body>
+
+</html>
